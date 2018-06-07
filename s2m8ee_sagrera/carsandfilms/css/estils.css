@@ -1,0 +1,97 @@
+body {
+	background-image:url('../img/fons.jpg');
+	background-repeat: repeat;
+	background-position: top;
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, Sans-serif;
+}
+
+#cabezera {
+	height: 589px;
+}
+
+#cabezera h1 {
+	position: absolute;
+	display: block;
+	margin: 10px auto;
+	text-align: center;
+	z-index: 3000;
+	font-size: 4em;
+	font-weight: 900;
+	font-style: bold;
+	line-height: 2em;
+}
+
+#cabezera h1 span {
+	color: grey;
+}
+
+#cotxes a .foto {
+	position: relative;
+	height: 240px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	opacity: 0.5;
+}
+
+#cotxes a .foto:hover {
+	opacity: 1;
+}
+
+#cotxes a #pulp {
+	background-image: url("../img/small/small_pulp.jpg");
+}
+
+#cotxes a #taxi {
+	background-image: url("../img/small/small_taxi.jpg");
+}
+
+#cotxes a #Goldfinger {
+	background-image: url("../img/small/small_bond.jpg");
+}
+
+#cotxes a #ghost {
+	background-image: url("../img/small/small_ghost.jpg");
+}
+
+#cotxes a #bean {
+	background-image: url("../img/small/small_bean.jpg");
+}
+
+#cotxes a #back {
+	background-image: url("../img/small/small_back.jpg");
+}
+
+#cotxes a #rider {
+	background-image: url("../img/small/small_rider.jpg");
+}
+
+#cotxes a #team {
+	background-image: url("../img/small/small_team.jpg");
+}
+
+#cotxes a #bad {
+	background-image: url("../img/small/small_break.jpg");
+}
+#cotxes a .foto .titol {
+
+	height: 20px;
+	padding:10px;
+	position:absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: white;
+	color: grey;
+
+}
+
+#inferior {
+	height: 220px;
+	background-image: url("../img/logo_carsandfilms.png");
+	background-repeat: no-repeat;
+	background-position: 380px;
+}
